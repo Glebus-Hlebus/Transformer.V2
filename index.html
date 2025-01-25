@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo_Transformer" class="logoimg">
+            <h1>Transformer</h1>
+            <img src="logo.png" alt="Logo_Transformer" class="logoimg">
+        </div>
+        <nav>
+            <ul>
+                <li><a class="scroll" href="#About">About</a></li>
+                <li><a class="scroll" href="#History">History</a></li>
+                <li><a class="scroll" href="#Working">How Work</a></li>
+                <li><a class="scroll" href="#Applications">Applications</a></li>
+                <li><a class="scroll" href="#Types">Types</a></li>
+                <li><a class="scroll" href="#Calculator">Calculaitor</a></li>
+                <li><a class="scroll" href="#Feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id = "About" class = "About">
+            <h3>About Transformers</h3>
+            <p>A transformer is an electrical device used to change the voltage or current of alternating current while maintaining the frequency. 
+            It is a key component in power engineering and electronics, enabling efficient transmission of energy over long distances and the safe use of electricity in homes and industries.</p>
+            <p>Transformers have made it possible to connect millions of homes to power grids, drive technological progress, and enable industrial growth. 
+            This project will explore their structure, history, principles of operation, and importance in our lives.</p>
+        </section>
+
+        <section id = "History" class = "History">
+            <h3>History of Invention</h3>
+            <p>The history of the transformer begins with Michael Faraday's discoveries in 1831. He identified the phenomenon of electromagnetic induction, which forms the basis for all devices that transform voltage.</p>
+            <p>The first primitive transformer was created in 1885. The device consisted of an iron core and two wire coils. This invention was developed by engineers Otto Blathy, Miksa Déri, and Károly Zipernowsky.</p>
+            <p>By the end of the 19th century, transformers became a key component for power transmission. Nikola Tesla made a significant contribution by proposing the alternating current system and integrating transformers into practical use.</p>
+        </section>
+
+        <section id = "Working" class = "Working">
+            <h3>How Transformers Work</h3>
+            <p>The working principle of a transformer is based on electromagnetic induction. When alternating current flows through the primary winding, it creates a magnetic field that induces voltage in the secondary winding. The voltage depends on the number of turns in each winding.</p>
+            <p>The voltage transformation formula: 
+            <br><code>U₁/U₂ = N₁/N₂</code>, where:
+            <ul>
+                <li><b>U₁</b> and <b>U₂</b> are the voltages on the primary and secondary windings.</li>
+                <li><b>N₁</b> and <b>N₂</b> are the number of turns on the primary and secondary windings.</li>
+            </ul>
+            </p>
+            <p>Transformers are classified into step-down and step-up types. Step-down transformers reduce voltage to make it safe for household use. Step-up transformers increase voltage for efficient long-distance transmission.</p>
+        </section>
+
+        <section id = "Applications" class = "Applications">
+            <h3>Applications</h3>
+            <ul>
+                <li><b>Power Grids:</b> Transformers are used to step up voltage for transmission and step down voltage for distribution to homes.</li>
+                <li><b>Medical Devices:</b> MRI machines and X-ray devices use transformers to generate high voltages.</li>
+                <li><b>Electronics:</b> Chargers, televisions, and computers contain transformers for power supply.</li>
+                <li><b>Industry:</b> Electric furnaces and welding machines depend on transformers.</li>
+            </ul>
+        </section>
+
+        <section id="Types" class = "Types">
+            <h3>Types of Transformers</h3>
+            <p>Transformers can be classified based on various parameters:</p>
+            <ul>
+                <li><b>Power Transformers:</b> Used in power grids for energy transmission and distribution.</li>
+                <li><b>Measurement Transformers:</b> Used for precise current and voltage measurements.</li>
+                <li><b>Pulse Transformers:</b> Used in electronics and modern chargers.</li>
+                <li><b>Autotransformers:</b> Share a common winding for primary and secondary voltages, reducing size and cost.</li>
+                <li><b>Special Transformers:</b> Designed for specific purposes like microwave ovens or welding machines.</li>
+            </ul>
+        </section>
+
+        <section id = "Calculator" class="Calculaitor">
+            <h3>Transformer Calculator</h3>
+            <p>Enter three parameters, select one to calculate, and click "Calculate".</p>
+            <form id="transformerForm">
+                <div class="input-group">
+                    <input type="number" id="u1" placeholder="U₁ (Volts)">
+                    <input type="number" id="u2" placeholder="U₂ (Volts)">
+                </div>
+                <div class="input-group">
+                    <input type="number" id="n1" placeholder="N₁ (Turns)">
+                    <input type="number" id="n2" placeholder="N₂ (Turns)">
+                </div>
+                <div class="input-group">
+                    <label for="calculate">Calculate:</label>
+                    <select id="calculate">
+                        <option value="u1">U₁</option>
+                        <option value="u2">U₂</option>
+                        <option value="n1">N₁</option>
+                        <option value="n2">N₂</option>
+                    </select>
+                </div>
+                <button type="button" id="calculateButton">Calculate</button>
+            </form>
+            <p id="result"></p>
+        </section>
+
+        <section id = "Feedback" class="Feedback">
+            <h3>Feedback</h3>
+            <form>
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your Email">
+                <textarea name="" id="" placeholder="Enter your message"></textarea>
+                <button>send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Physics School Project. All rights reserved.</p>
+    </footer>
+    <script src="Calculator.js"></script>
+    <script src="scrool.js"></script>
+</body>
+</html>

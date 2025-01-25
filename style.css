@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Comfortaa:wght@300..700&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", serif;
+}
+
+.logo {
+    background-color: #29058B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav {
+    background-color: #1f0c51;
+    padding: 1.25%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background-color: white;
+    padding: 10%;
+}
+
+.About {
+    background-color: #d0b3ff;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.History {
+    background-color: #d0b3ff;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.Working {
+    background-color: #d0b3ff;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.Applications {
+    background-color: #d0b3ff;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.Types {
+    background-color: #d0b3ff;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.Calculaitor {
+    background-color: #d0b3ff;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.Feedback {
+    background-color: #d0b3ff;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+
+h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
