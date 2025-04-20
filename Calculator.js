@@ -8,15 +8,15 @@ document.getElementById('calculateButton').addEventListener('click', function ()
     let result;
 
     if (calculate === 'u1' && u2 && n1 && n2) {
-        result = `U₁ = ${(u2 * n1 / n2).toFixed(2)} В`;
+        result = `U₁ = ${(u2 * n1 / n2).toFixed(2)} V`;
     } else if (calculate === 'u2' && u1 && n1 && n2) {
-        result = `U₂ = ${(u1 * n2 / n1).toFixed(2)} В`;
+        result = `U₂ = ${(u1 * n2 / n1).toFixed(2)} V`;
     } else if (calculate === 'n1' && u1 && u2 && n2) {
-        result = `N₁ = ${(u1 * n2 / u2).toFixed(2)} витков`;
+        result = `N₁ = ${(u1 * n2 / u2).toFixed(2)} turns`;
     } else if (calculate === 'n2' && u1 && u2 && n1) {
-        result = `N₂ = ${(u2 * n1 / u1).toFixed(2)} витков`;
+        result = `N₂ = ${(u2 * n1 / u1).toFixed(2)} turns`;
     } else {
-        result = 'Пожалуйста, заполните три параметра, чтобы рассчитать четвертый.';
+        result = 'Please fill out three parameters to calculate the fourth.';
     }
 
     document.getElementById('result').textContent = result;
